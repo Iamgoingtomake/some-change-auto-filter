@@ -39,5 +39,5 @@ ABOUT = """
 
 ➥ Official File Channel : [Click Me](https://t.me/Allinonestorems)
 
-➥ Official Movie Group : [Click Me](https://t.me/e)
+➥ Official Movie Group : [Click Me](https://t.me/+TXRsuu0ZXUM3MDI9)
 """
