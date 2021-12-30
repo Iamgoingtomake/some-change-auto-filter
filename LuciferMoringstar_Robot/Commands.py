@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
-
+PICS= "https://telegra.ph/file/91879ceda58f001a1640a.jpg"
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
     chat_id = message.from_user.id
@@ -109,8 +109,9 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_text(
-            START_MSG,
+        await message.reply_phto(
+            photo=PICS
+            caption=START_MSG
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
